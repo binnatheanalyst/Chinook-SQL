@@ -1,7 +1,6 @@
-This project explores and analyzes the Chinook Database, a sample dataset that simulates a digital music store. It contains information about artists, albums, media tracks, playlists, customers, invoices, and employees - designed to represent a real-world business scenario similar to platforms like iTunes.
-
 **Introduction**
-Database Structure:
+This project explores and analyzes the Chinook Database, a sample dataset that simulates a digital music store. It contains information about artists, albums, media tracks, playlists, customers, invoices, and employees - designed to represent a real-world business scenario similar to platforms like iTunes.
+**Database Structure:**
 The Chinook database includes the following key tables:
 Artist – stores artist names.
 Album – contains albums associated with each artist.
