@@ -1,4 +1,4 @@
-# Chinook-SQL
+<img width="781" height="729" alt="image" src="https://github.com/user-attachments/assets/419ccc3e-3755-4ffd-b4e8-b12c005e669a" /># Chinook-SQL
 This project explores and analyzes the Chinook Database, a sample dataset that simulates a digital music store. It contains information about artists, albums, media tracks, playlists, customers, invoices, and employees - designed to represent a real-world business scenario similar to platforms like iTunes.
 
 **Introduction**
@@ -23,4 +23,8 @@ Who are the most productive sales representatives?
 What is the average order value and purchase frequency per customer?
 
 **1. What are the top 5 best-selling artists by total sales ?**
+<img width="781" height="729" alt="image" src="https://github.com/user-attachments/assets/a3a02ee6-49a8-411b-83cb-8ec52ea0647f" />
+
+Above is the ERR diagram
+
 
