@@ -270,13 +270,13 @@ GROUP BY g.Name;
 
 ---
 
-### Tools & Technologies
+## Tools & Technologies
 
 - Database: MySQL (Chinook dataset)
 - Environment: MYSQL Workbench
 - Language: SQL
 
-### Project Learnings
+## Project Learnings
 
 - Writing advanced SQL queries with joins, aggregation, and window functions
 
@@ -286,7 +286,7 @@ GROUP BY g.Name;
 
 - Presenting data insights through SQL-based exploration
 
-### Author
+## Author
 
 Obinna - (binnatheanalyst)
 Data Analyst | SQL • Python • Power BI • Tableau •
