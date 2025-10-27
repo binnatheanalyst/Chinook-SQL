@@ -1,4 +1,4 @@
-# 🎵 Chinook SQL Analysis
+# Chinook SQL Analysis
 
 ##  Overview
 This project explores the **Chinook** sample database using SQL to uncover business insights related to music sales, customer behavior, and revenue trends.  
