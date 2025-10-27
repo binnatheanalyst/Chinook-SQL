@@ -232,7 +232,7 @@ Case statements are mainly used for Customer Segmentation, Revenue Grouping, Pro
 
 ---
 
-c 5. Building modular analysis layers (Data Modelling)
+### 5. Building modular analysis layers (Data Modelling)
 
 I grew really in love with SQL VIEWS - it works like a saved query that behaves like an actual table.
 But it's not an actual table, it is a stored SELECT statement that you can query later.
