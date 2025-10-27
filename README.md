@@ -26,8 +26,9 @@ The Chinook database simulates a digital music store, including tables for:
 5. Running total and revenue growth per genre over time
 
 ---
-To start off, The Chinook database contains 11 tables - I have generated the ERD diagram showing the relationship between all 11 tables
-Below is an Entity Relationship Diagram that shows the relationship between the tables.
+To start off, The Chinook database contains 11 tables.
+
+Below is an Entity Relationship Diagram that shows the relationship between all 11 tables.
 
 <img width="650" height="728" alt="image" src="https://github.com/user-attachments/assets/8d6fb1bc-8ffa-4097-9951-a44690d019f4" /> 
 
