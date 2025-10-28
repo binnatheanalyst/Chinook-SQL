@@ -194,15 +194,11 @@ This solves questions like;
 
 ```sql
 -- 4a. Classify customers by spending level
-SELECT 
-    c.FirstName,
-    c.LastName,
-    SUM(i.Total) AS TotalSpent,
-    CASE
-        WHEN SUM(i.Total) > 40 THEN 'High-Value'
-        WHEN SUM(i.Total) BETWEEN 20 AND 40 THEN 'Medium-Value'
-        ELSE 'Low-Value'
-    END AS CustomerTier
+SELECT c.FirstName, c.LastName, SUM(i.Total) AS TotalSpent,
+CASE WHEN SUM(i.Total) > 40 THEN 'High-Value'
+WHEN SUM(i.Total) BETWEEN 20 AND 40 THEN 'Medium-Value'
+ELSE 'Low-Value'
+END AS CustomerTier
 FROM Customer AS c
 JOIN Invoice AS i ON c.CustomerId = i.CustomerId
 GROUP BY c.CustomerId, c.FirstName, c.LastName;
@@ -212,14 +208,11 @@ GROUP BY c.CustomerId, c.FirstName, c.LastName;
 ```sql
 
 -- 4b. Categorize genres by popularity
-SELECT 
-    g.Name AS Genre,
-    COUNT(il.InvoiceLineId) AS Purchases,
-    CASE
-        WHEN COUNT(il.InvoiceLineId) > 100 THEN 'Top Genre'
-        WHEN COUNT(il.InvoiceLineId) BETWEEN 50 AND 100 THEN 'Moderate'
-        ELSE 'Low Popularity'
-    END AS Popularity
+SELECT g.Name AS Genre, COUNT(il.InvoiceLineId) AS Purchases,
+CASE WHEN COUNT(il.InvoiceLineId) > 100 THEN 'Top Genre'
+WHEN COUNT(il.InvoiceLineId) BETWEEN 50 AND 100 THEN 'Moderate'
+ELSE 'Low Popularity'
+END AS Popularity
 FROM Genre g
 JOIN Track t ON g.GenreId = t.GenreId
 JOIN InvoiceLine il ON t.TrackId = il.TrackId
@@ -299,12 +292,5 @@ If you have any questions or suggestions as regards my solutions to this, you ca
 Thank you for reading! Hopefully you'll read about my next case study too, right? 
 
 See you soon.
-
-
-
-
-
-
-
 
 
